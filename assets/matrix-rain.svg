@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0D1117"/>
+  <style>
+    @keyframes drop {
+      to { transform: translateY(120px); }
+    }
+    .matrix-char {
+      fill: #00ff00;
+      font-family: monospace;
+      font-size: 14px;
+      animation: drop 3s linear infinite;
+    }
+  </style>
+  <g>
+    <text x="50" y="0" class="matrix-char" style="animation-delay: 0s;">0</text>
+    <text x="100" y="-20" class="matrix-char" style="animation-delay: 0.5s;">1</text>
+    <text x="150" y="-10" class="matrix-char" style="animation-delay: 1s;">0</text>
+    <text x="200" y="0" class="matrix-char" style="animation-delay: 0.3s;">1</text>
+    <text x="250" y="-30" class="matrix-char" style="animation-delay: 0.8s;">1</text>
+    <text x="300" y="-15" class="matrix-char" style="animation-delay: 1.2s;">0</text>
+    <text x="350" y="0" class="matrix-char" style="animation-delay: 0.1s;">1</text>
+    <text x="400" y="-25" class="matrix-char" style="animation-delay: 0.7s;">0</text>
+    <text x="450" y="-5" class="matrix-char" style="animation-delay: 1.5s;">1</text>
+    <text x="500" y="-20" class="matrix-char" style="animation-delay: 0.4s;">0</text>
+    <text x="550" y="0" class="matrix-char" style="animation-delay: 0.9s;">1</text>
+    <text x="600" y="-15" class="matrix-char" style="animation-delay: 0.2s;">1</text>
+    <text x="650" y="-30" class="matrix-char" style="animation-delay: 1.1s;">0</text>
+    <text x="700" y="0" class="matrix-char" style="animation-delay: 0.6s;">1</text>
+    <text x="750" y="-10" class="matrix-char" style="animation-delay: 1.3s;">0</text>
+    <text x="800" y="-20" class="matrix-char" style="animation-delay: 0s;">1</text>
+    <text x="850" y="0" class="matrix-char" style="animation-delay: 0.8s;">0</text>
+    <text x="900" y="-25" class="matrix-char" style="animation-delay: 1.4s;">1</text>
+    <text x="950" y="-15" class="matrix-char" style="animation-delay: 0.3s;">1</text>
+    <text x="1000" y="0" class="matrix-char" style="animation-delay: 1s;">0</text>
+    <text x="1050" y="-30" class="matrix-char" style="animation-delay: 0.5s;">1</text>
+    <text x="1100" y="-10" class="matrix-char" style="animation-delay: 1.2s;">0</text>
+    <text x="1150" y="0" class="matrix-char" style="animation-delay: 0.7s;">1</text>
+  </g>
+</svg>

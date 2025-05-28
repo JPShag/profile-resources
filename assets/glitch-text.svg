@@ -1,0 +1,27 @@
+<svg viewBox="0 0 600 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glitch">
+      <feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="1" result="turbulence" seed="1">
+        <animate attributeName="seed" from="1" to="10" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <style>
+    @keyframes glitch {
+      0%, 100% { filter: none; }
+      20% { filter: url(#glitch); }
+      21% { filter: none; }
+      50% { filter: url(#glitch); }
+      51% { filter: none; }
+    }
+    .glitch-text {
+      fill: #6CD3FF;
+      font-family: 'Courier New', monospace;
+      font-size: 30px;
+      font-weight: bold;
+      animation: glitch 3s infinite;
+    }
+  </style>
+  <text x="300" y="30" text-anchor="middle" class="glitch-text">[ SYSTEM BREAKER ]</text>
+</svg>
